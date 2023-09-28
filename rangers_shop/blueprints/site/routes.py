@@ -89,7 +89,6 @@ def update(id):
         
     return render_template('update.html', form=updateform, product=product)
 
-
 @site.route('/shop/delete/<id>')
 def delete(id):
 
